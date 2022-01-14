@@ -1,4 +1,5 @@
 import React from 'react';
+import socket from '../socket';
 function JoinPage() {
   return (
     <div className='join-block'>
