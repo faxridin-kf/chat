@@ -1,1 +1,3 @@
-export { default as JoinPage } from './JoinPage';
+import JoinBlock from './JoinPage';
+import Chat from './Chat'
+export { JoinBlock, Chat };

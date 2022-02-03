@@ -23,13 +23,13 @@
     "eject": "react-scripts eject",
     "server": "nodemon server.js"
   },
-  "proxi": "http://localhost:9999",
   "eslintConfig": {
     "extends": [
       "react-app",
       "react-app/jest"
     ]
   },
+  "proxy": "http://localhost:9999",
   "browserslist": {
     "production": [
       ">0.2%",
